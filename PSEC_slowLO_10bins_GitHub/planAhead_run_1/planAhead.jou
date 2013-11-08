@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2
+# Build 194362 by xbuild on Fri Jul 20 18:52:36 MDT 2012
+# Start of session at: Mon Oct 14 21:56:14 2013
+# Process ID: 692
+# Log file: F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013/planAhead_run_1/planAhead.log
+# Journal file: F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013/pa.fromNcd.tcl

@@ -1,0 +1,15 @@
+WARNING:coreutil:928 - Unable to find 'xilinx.com:ip:Fifo_Generator:3.2' within
+   repository.
+WARNING:coreutil:928 - Unable to find 'xilinx.com:ip:Fifo_Generator:3.2' within
+   repository.
+WARNING:sim - The IP Fifo Generator 3.2 does not exist within the repository,
+   and cannot be recustomized or regenerated. It is not available in CoreGen
+   14.2, and may have been removed or replaced. To generate Fifo Generator 3.2
+   please use a previous version of ISE in which this IP is available, or add
+   the user repository which contains this IP.
+WARNING:coreutil:928 - Unable to find 'xilinx.com:ip:dcm_v13_1:1.0' within
+   repository.
+ERROR:sim:879 - Part 'xc6vlx75t-3ff484' is not valid for component
+   'xilinx.com:ip:dcm:13.1'.
+ERROR:sim:621 - Unable to create project from file
+   'F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013/pll.xaw'.

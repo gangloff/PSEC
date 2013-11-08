@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="coreutil" num="928" delta="old" >Unable to find &apos;<arg fmt="%s" index="1">xilinx.com:ip:Fifo_Generator:3.2</arg>&apos; within repository.
+</msg>
+
+<msg type="warning" file="coreutil" num="928" delta="old" >Unable to find &apos;<arg fmt="%s" index="1">xilinx.com:ip:Fifo_Generator:3.2</arg>&apos; within repository.
+</msg>
+
+<msg type="warning" file="sim" num="0" delta="new" >The IP Fifo Generator 3.2 does not exist within the repository, and cannot be recustomized or regenerated. It is not available in CoreGen 14.2, and may have been removed or replaced. To generate Fifo Generator 3.2 please use a previous version of ISE in which this IP is available, or add the user repository which contains this IP.
+</msg>
+
+<msg type="warning" file="coreutil" num="928" delta="new" >Unable to find &apos;<arg fmt="%s" index="1">xilinx.com:ip:dcm_v13_1:1.0</arg>&apos; within repository.
+</msg>
+
+<msg type="error" file="sim" num="879" delta="new" >Part &apos;<arg fmt="%s" index="1">xc6vlx75t-3ff484</arg>&apos; is not valid for component &apos;<arg fmt="%s" index="2">xilinx.com:ip:dcm:13.1</arg>&apos;.
+</msg>
+
+<msg type="error" file="sim" num="621" delta="new" >Unable to create project from file &apos;<arg fmt="%s" index="1">F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013/pll.xaw</arg>&apos;.
+</msg>
+
+</messages>
+

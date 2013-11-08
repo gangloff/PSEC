@@ -1,0 +1,33 @@
+Command line:
+   PhotonCounter_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1638
+
+Mon Oct 14 23:24:05 2013
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 318.165 Meg
+
+ Total Signals          : 2024
+ Total Nets             : 3329
+ Total Signal Drivers   : 1561
+ Total Blocks           : 183
+ Total Primitive Blocks : 137
+ Total Processes        : 2484
+ Total Traceable Variables  : 2937
+ Total Scalar Nets and Variables : 60671
+Total Line Count : 12512
+Total Line Count : 12512
+Total Line Count : 12512
+Total Line Count : 12512
+Total Line Count : 12512
+
+ Total Simulation Time: 0.8125 sec
+
+ Current Memory Usage: 319.214 Meg
+
+Tue Oct 15 20:18:47 2013
+
