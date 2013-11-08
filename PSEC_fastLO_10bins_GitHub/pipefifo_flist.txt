@@ -1,0 +1,3 @@
+# Output products list for <pipefifo>
+pipefifo.xco
+pipefifo_flist.txt
