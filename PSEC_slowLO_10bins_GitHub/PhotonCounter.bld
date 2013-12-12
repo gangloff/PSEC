@@ -7,8 +7,9 @@ Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001 -sd ipcore_dir -sd
 ../XEM6001 -aul -nt timestamp -uc photonconnections.ucf -p xc6slx16-ftg256-2
 PhotonCounter.ngc PhotonCounter.ngd
 
-Reading NGO file "F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC/PhotonCounter.ngc"
-...
+Reading NGO file
+"F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC/PSEC_slowLO_10bins_GitHub/PhotonCoun
+ter.ngc" ...
 Loading design module "E:/Program Files/Opal
 Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001/okPipeOut.ngc"...
 Loading design module "E:/Program Files/Opal
@@ -142,10 +143,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   6
 
-Total memory usage is 106904 kilobytes
+Total memory usage is 107928 kilobytes
 
 Writing NGD file "PhotonCounter.ngd" ...
-Total REAL time to NGDBUILD completion:  4 sec
-Total CPU time to NGDBUILD completion:   3 sec
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   4 sec
 
 Writing NGDBUILD log file "PhotonCounter.bld"...

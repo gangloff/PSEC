@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/InternalTest1.xst" -ofn "F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/InternalTest1.syr" 
+xst -intstyle ise -ifn "F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/InternalTest1.xst" -ofn "F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/InternalTest1.syr" 

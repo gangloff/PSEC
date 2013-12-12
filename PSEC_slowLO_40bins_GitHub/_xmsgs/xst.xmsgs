@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:/Program Files/Opal Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001/okLibrary.v" Line 34: Port <arg fmt="%s" index="1">CLK180</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"E:/Program Files/Opal Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001/okLibrary.v" Line 62: Port <arg fmt="%s" index="1">BUSY</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_40bins_GitHub\PhotonCounter.v" Line 722: Assignment to <arg fmt="%s" index="1">PipeFull1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_40bins_GitHub\PhotonCounter.v" Line 726: Assignment to <arg fmt="%s" index="1">PipeFull2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_40bins_GitHub\PhotonCounter.v</arg>&quot; line <arg fmt="%s" index="2">89</arg>: Output port &lt;<arg fmt="%s" index="3">CLKIN_IBUFG_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pllloop</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_40bins_GitHub\PhotonCounter.v</arg>&quot; line <arg fmt="%s" index="2">720</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pipeoutfifo1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_40bins_GitHub\PhotonCounter.v</arg>&quot; line <arg fmt="%s" index="2">724</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pipeoutfifo2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_read_pulse_det_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_pulse_det_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_read_pulse_det_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">read_pulse_det_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_01</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_110</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_210</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_71</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_81</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_91</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_101</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_111</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_121</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_131</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_141</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_151</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_161</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_171</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_181</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_191</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_201</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_211</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_221</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_231</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_241</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_251</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_261</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_271</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_281</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_291</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_301</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_pw_div_in_311</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_01</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_110</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_210</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_71</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_81</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_91</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_101</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_111</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_121</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_131</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_141</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_151</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_161</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_171</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_181</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_191</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_201</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_211</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_221</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_231</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_241</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_251</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_261</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_271</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_281</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_291</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_301</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">slow_delay_div_in_311</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">pw_div_in_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_01</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_110</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_210</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_71</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_81</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_91</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_101</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_111</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_121</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_131</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_141</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_151</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_161</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_171</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_181</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_191</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_201</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_211</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_221</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_231</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_241</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_251</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_261</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_271</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_281</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_291</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_301</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">delay_div_in_311</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pllloop/DCM_INST</arg> in unit <arg fmt="%s" index="2">PhotonCounter</arg> of type <arg fmt="%s" index="3">DCM</arg> has been replaced by <arg fmt="%s" index="4">DCM_SP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">counter2&lt;39&gt;/sync_f</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">79 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;counter2&lt;38&gt;/sync_f&gt; &lt;counter2&lt;37&gt;/sync_f&gt; &lt;counter2&lt;36&gt;/sync_f&gt; &lt;counter2&lt;35&gt;/sync_f&gt; &lt;counter2&lt;34&gt;/sync_f&gt; &lt;counter2&lt;33&gt;/sync_f&gt; &lt;counter2&lt;32&gt;/sync_f&gt; &lt;counter2&lt;31&gt;/sync_f&gt; &lt;counter2&lt;30&gt;/sync_f&gt; &lt;counter2&lt;29&gt;/sync_f&gt; &lt;counter2&lt;28&gt;/sync_f&gt; &lt;counter2&lt;27&gt;/sync_f&gt; &lt;counter2&lt;26&gt;/sync_f&gt; &lt;counter2&lt;25&gt;/sync_f&gt; &lt;counter2&lt;24&gt;/sync_f&gt; &lt;counter2&lt;23&gt;/sync_f&gt; &lt;counter2&lt;22&gt;/sync_f&gt; &lt;counter2&lt;21&gt;/sync_f&gt; &lt;counter2&lt;20&gt;/sync_f&gt; &lt;counter2&lt;19&gt;/sync_f&gt; &lt;counter2&lt;18&gt;/sync_f&gt; &lt;counter2&lt;17&gt;/sync_f&gt; &lt;counter2&lt;16&gt;/sync_f&gt; &lt;counter2&lt;15&gt;/sync_f&gt; &lt;counter2&lt;14&gt;/sync_f&gt; &lt;counter2&lt;13&gt;/sync_f&gt; &lt;counter2&lt;12&gt;/sync_f&gt; &lt;counter2&lt;11&gt;/sync_f&gt; &lt;counter2&lt;10&gt;/sync_f&gt; &lt;counter2&lt;9&gt;/sync_f&gt; &lt;counter2&lt;8&gt;/sync_f&gt; &lt;counter2&lt;7&gt;/sync_f&gt; &lt;counter2&lt;6&gt;/sync_f&gt; &lt;counter2&lt;5&gt;/sync_f&gt; &lt;counter2&lt;4&gt;/sync_f&gt; &lt;counter2&lt;3&gt;/sync_f&gt; &lt;counter2&lt;2&gt;/sync_f&gt; &lt;counter2&lt;1&gt;/sync_f&gt; &lt;counter2&lt;0&gt;/sync_f&gt; &lt;counter1&lt;39&gt;/sync_f&gt; &lt;counter1&lt;38&gt;/sync_f&gt; &lt;counter1&lt;37&gt;/sync_f&gt; &lt;counter1&lt;36&gt;/sync_f&gt; &lt;counter1&lt;35&gt;/sync_f&gt; &lt;counter1&lt;34&gt;/sync_f&gt; &lt;counter1&lt;33&gt;/sync_f&gt; &lt;counter1&lt;32&gt;/sync_f&gt; &lt;counter1&lt;31&gt;/sync_f&gt; &lt;counter1&lt;30&gt;/sync_f&gt; &lt;counter1&lt;29&gt;/sync_f&gt; &lt;counter1&lt;28&gt;/sync_f&gt; &lt;counter1&lt;27&gt;/sync_f&gt; &lt;counter1&lt;26&gt;/sync_f&gt; &lt;counter1&lt;25&gt;/sync_f&gt; &lt;counter1&lt;24&gt;/sync_f&gt; &lt;counter1&lt;23&gt;/sync_f&gt; &lt;counter1&lt;22&gt;/sync_f&gt; &lt;counter1&lt;21&gt;/sync_f&gt; &lt;counter1&lt;20&gt;/sync_f&gt; &lt;counter1&lt;19&gt;/sync_f&gt; &lt;counter1&lt;18&gt;/sync_f&gt; &lt;counter1&lt;17&gt;/sync_f&gt; &lt;counter1&lt;16&gt;/sync_f&gt; &lt;counter1&lt;15&gt;/sync_f&gt; &lt;counter1&lt;14&gt;/sync_f&gt; &lt;counter1&lt;13&gt;/sync_f&gt; &lt;counter1&lt;12&gt;/sync_f&gt; &lt;counter1&lt;11&gt;/sync_f&gt; &lt;counter1&lt;10&gt;/sync_f&gt; &lt;counter1&lt;9&gt;/sync_f&gt; &lt;counter1&lt;8&gt;/sync_f&gt; &lt;counter1&lt;7&gt;/sync_f&gt; &lt;counter1&lt;6&gt;/sync_f&gt; &lt;counter1&lt;5&gt;/sync_f&gt; &lt;counter1&lt;4&gt;/sync_f&gt; &lt;counter1&lt;3&gt;/sync_f&gt; &lt;counter1&lt;2&gt;/sync_f&gt; &lt;counter1&lt;1&gt;/sync_f&gt; &lt;counter1&lt;0&gt;/sync_f&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">counter2&lt;39&gt;/syncdly_f</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">79 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;counter2&lt;38&gt;/syncdly_f&gt; &lt;counter2&lt;37&gt;/syncdly_f&gt; &lt;counter2&lt;36&gt;/syncdly_f&gt; &lt;counter2&lt;35&gt;/syncdly_f&gt; &lt;counter2&lt;34&gt;/syncdly_f&gt; &lt;counter2&lt;33&gt;/syncdly_f&gt; &lt;counter2&lt;32&gt;/syncdly_f&gt; &lt;counter2&lt;31&gt;/syncdly_f&gt; &lt;counter2&lt;30&gt;/syncdly_f&gt; &lt;counter2&lt;29&gt;/syncdly_f&gt; &lt;counter2&lt;28&gt;/syncdly_f&gt; &lt;counter2&lt;27&gt;/syncdly_f&gt; &lt;counter2&lt;26&gt;/syncdly_f&gt; &lt;counter2&lt;25&gt;/syncdly_f&gt; &lt;counter2&lt;24&gt;/syncdly_f&gt; &lt;counter2&lt;23&gt;/syncdly_f&gt; &lt;counter2&lt;22&gt;/syncdly_f&gt; &lt;counter2&lt;21&gt;/syncdly_f&gt; &lt;counter2&lt;20&gt;/syncdly_f&gt; &lt;counter2&lt;19&gt;/syncdly_f&gt; &lt;counter2&lt;18&gt;/syncdly_f&gt; &lt;counter2&lt;17&gt;/syncdly_f&gt; &lt;counter2&lt;16&gt;/syncdly_f&gt; &lt;counter2&lt;15&gt;/syncdly_f&gt; &lt;counter2&lt;14&gt;/syncdly_f&gt; &lt;counter2&lt;13&gt;/syncdly_f&gt; &lt;counter2&lt;12&gt;/syncdly_f&gt; &lt;counter2&lt;11&gt;/syncdly_f&gt; &lt;counter2&lt;10&gt;/syncdly_f&gt; &lt;counter2&lt;9&gt;/syncdly_f&gt; &lt;counter2&lt;8&gt;/syncdly_f&gt; &lt;counter2&lt;7&gt;/syncdly_f&gt; &lt;counter2&lt;6&gt;/syncdly_f&gt; &lt;counter2&lt;5&gt;/syncdly_f&gt; &lt;counter2&lt;4&gt;/syncdly_f&gt; &lt;counter2&lt;3&gt;/syncdly_f&gt; &lt;counter2&lt;2&gt;/syncdly_f&gt; &lt;counter2&lt;1&gt;/syncdly_f&gt; &lt;counter2&lt;0&gt;/syncdly_f&gt; &lt;counter1&lt;39&gt;/syncdly_f&gt; &lt;counter1&lt;38&gt;/syncdly_f&gt; &lt;counter1&lt;37&gt;/syncdly_f&gt; &lt;counter1&lt;36&gt;/syncdly_f&gt; &lt;counter1&lt;35&gt;/syncdly_f&gt; &lt;counter1&lt;34&gt;/syncdly_f&gt; &lt;counter1&lt;33&gt;/syncdly_f&gt; &lt;counter1&lt;32&gt;/syncdly_f&gt; &lt;counter1&lt;31&gt;/syncdly_f&gt; &lt;counter1&lt;30&gt;/syncdly_f&gt; &lt;counter1&lt;29&gt;/syncdly_f&gt; &lt;counter1&lt;28&gt;/syncdly_f&gt; &lt;counter1&lt;27&gt;/syncdly_f&gt; &lt;counter1&lt;26&gt;/syncdly_f&gt; &lt;counter1&lt;25&gt;/syncdly_f&gt; &lt;counter1&lt;24&gt;/syncdly_f&gt; &lt;counter1&lt;23&gt;/syncdly_f&gt; &lt;counter1&lt;22&gt;/syncdly_f&gt; &lt;counter1&lt;21&gt;/syncdly_f&gt; &lt;counter1&lt;20&gt;/syncdly_f&gt; &lt;counter1&lt;19&gt;/syncdly_f&gt; &lt;counter1&lt;18&gt;/syncdly_f&gt; &lt;counter1&lt;17&gt;/syncdly_f&gt; &lt;counter1&lt;16&gt;/syncdly_f&gt; &lt;counter1&lt;15&gt;/syncdly_f&gt; &lt;counter1&lt;14&gt;/syncdly_f&gt; &lt;counter1&lt;13&gt;/syncdly_f&gt; &lt;counter1&lt;12&gt;/syncdly_f&gt; &lt;counter1&lt;11&gt;/syncdly_f&gt; &lt;counter1&lt;10&gt;/syncdly_f&gt; &lt;counter1&lt;9&gt;/syncdly_f&gt; &lt;counter1&lt;8&gt;/syncdly_f&gt; &lt;counter1&lt;7&gt;/syncdly_f&gt; &lt;counter1&lt;6&gt;/syncdly_f&gt; &lt;counter1&lt;5&gt;/syncdly_f&gt; &lt;counter1&lt;4&gt;/syncdly_f&gt; &lt;counter1&lt;3&gt;/syncdly_f&gt; &lt;counter1&lt;2&gt;/syncdly_f&gt; &lt;counter1&lt;1&gt;/syncdly_f&gt; &lt;counter1&lt;0&gt;/syncdly_f&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sync2x_free</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PhotonCounter</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;sync_counter_long_17_BRB1&gt; &lt;sync_counter_long_16_BRB1&gt; &lt;sync_counter_long_15_BRB1&gt; &lt;sync_counter_long_14_BRB1&gt; &lt;sync_counter_long_13_BRB1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+</messages>
+

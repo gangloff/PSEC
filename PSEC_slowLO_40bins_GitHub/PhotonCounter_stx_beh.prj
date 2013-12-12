@@ -1,0 +1,5 @@
+verilog isim_temp "pll.v"
+verilog isim_temp "ipcore_dir/pipefifo_v6.v"
+verilog isim_temp "E:/Program Files/Opal Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001/okLibrary.v"
+verilog isim_temp "PhotonCounter.v"
+verilog isim_temp "E:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

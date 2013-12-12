@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/InternalTest1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="InternalTest1" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="group60" type="group">
+      <obj_property name="label">CLOCKS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/InternalTest1/dut/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/clk2x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk2x</obj_property>
+      <obj_property name="ObjectShortName">clk2x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/sync2x_det_1st" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sync2x_det_1st</obj_property>
+      <obj_property name="ObjectShortName">sync2x_det_1st</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/sync2x_det" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sync2x_det</obj_property>
+      <obj_property name="ObjectShortName">sync2x_det</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/sync2x" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sync2x</obj_property>
+      <obj_property name="ObjectShortName">sync2x</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/set_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_clk</obj_property>
+      <obj_property name="ObjectShortName">set_clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/sr_active" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sr_active</obj_property>
+      <obj_property name="ObjectShortName">sr_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/pmt_det1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pmt_det1</obj_property>
+      <obj_property name="ObjectShortName">pmt_det1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/pmt1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pmt1</obj_property>
+      <obj_property name="ObjectShortName">pmt1</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[0]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">photons1[0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/timebin_counter1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">timebin_counter1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">timebin_counter1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[15]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[15]</obj_property>
+      <obj_property name="ObjectShortName">photons1[15]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[14]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[14]</obj_property>
+      <obj_property name="ObjectShortName">photons1[14]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[13]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[13]</obj_property>
+      <obj_property name="ObjectShortName">photons1[13]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[12]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[12]</obj_property>
+      <obj_property name="ObjectShortName">photons1[12]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[11]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[11]</obj_property>
+      <obj_property name="ObjectShortName">photons1[11]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[10]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">photons1[10]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[9]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[9]</obj_property>
+      <obj_property name="ObjectShortName">photons1[9]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[8]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[8]</obj_property>
+      <obj_property name="ObjectShortName">photons1[8]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[7]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[7]</obj_property>
+      <obj_property name="ObjectShortName">photons1[7]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[6]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[6]</obj_property>
+      <obj_property name="ObjectShortName">photons1[6]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[5]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[5]</obj_property>
+      <obj_property name="ObjectShortName">photons1[5]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[4]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[4]</obj_property>
+      <obj_property name="ObjectShortName">photons1[4]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[3]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">photons1[3]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[2]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">photons1[2]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[1]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">photons1[1]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1[0]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">photons1[0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">photons1[79:0]</obj_property>
+      <obj_property name="ObjectShortName">photons1[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/photons_sync1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">photons_sync1[79:0]</obj_property>
+      <obj_property name="ObjectShortName">photons_sync1[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group97" type="group">
+      <obj_property name="label">SHIFT REGISTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/InternalTest1/dut/set_clk_det" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">set_clk_det</obj_property>
+         <obj_property name="ObjectShortName">set_clk_det</obj_property>
+      </wvobject>
+      <wvobject fp_name="/InternalTest1/dut/pulsed_sig_det[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">pulsed_sig_det[0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/InternalTest1/phcountbool" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">phcountbool</obj_property>
+         <obj_property name="ObjectShortName">phcountbool</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group98" type="group">
+      <obj_property name="label">SYNC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/InternalTest1/dut/sync2x_exp" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sync2x_exp</obj_property>
+         <obj_property name="ObjectShortName">sync2x_exp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/InternalTest1/dut/sync2x_det" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sync2x_det</obj_property>
+         <obj_property name="ObjectShortName">sync2x_det</obj_property>
+      </wvobject>
+      <wvobject fp_name="/InternalTest1/dut/sync_buf" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sync_buf[3:0]</obj_property>
+         <obj_property name="ObjectShortName">sync_buf[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/InternalTest1/sync_in" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sync_in</obj_property>
+         <obj_property name="ObjectShortName">sync_in</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group99" type="group">
+      <obj_property name="label">COUNTING</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/InternalTest1/pmt_in1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pmt_in1</obj_property>
+         <obj_property name="ObjectShortName">pmt_in1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/InternalTest1/dut/pmt_buf1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">pmt_buf1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">pmt_buf1[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/InternalTest1/dut/pmt_free1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">pmt_free1</obj_property>
+         <obj_property name="ObjectShortName">pmt_free1</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group100" type="group">
+      <obj_property name="label">AUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/InternalTest1/clk_divide" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">clk_divide[31:0]</obj_property>
+         <obj_property name="ObjectShortName">clk_divide[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/InternalTest1/pulsePeriod_div" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">pulsePeriod_div[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pulsePeriod_div[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/InternalTest1/pw_div_in0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">pw_div_in0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pw_div_in0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/InternalTest1/pulse_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">pulse_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">pulse_out[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/read_pulse[0]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">read_pulse[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/slow_read_pulse" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slow_read_pulse[1:0]</obj_property>
+      <obj_property name="ObjectShortName">slow_read_pulse[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InternalTest1/dut/slow_pulsed_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">slow_pulsed_sig[1:0]</obj_property>
+      <obj_property name="ObjectShortName">slow_pulsed_sig[1:0]</obj_property>
+   </wvobject>
+</wave_config>

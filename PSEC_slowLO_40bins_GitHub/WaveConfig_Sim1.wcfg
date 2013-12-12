@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013/FIRST_TEST_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="FIRST_TEST" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="group45" type="group">
+      <obj_property name="label">CLOCKS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/FIRST_TEST/dut/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIRST_TEST/dut/clk2x" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk2x</obj_property>
+         <obj_property name="ObjectShortName">clk2x</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/FIRST_TEST/dut/clk2x_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk2x_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk2x_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIRST_TEST/dut/clk_divide" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_divide[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_divide[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIRST_TEST/dut/set_clk_det" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_clk_det</obj_property>
+      <obj_property name="ObjectShortName">set_clk_det</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIRST_TEST/dut/set_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">set_clk</obj_property>
+      <obj_property name="ObjectShortName">set_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group172" type="group">
+      <obj_property name="label">SYNC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/FIRST_TEST/sync_in" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sync_in</obj_property>
+         <obj_property name="ObjectShortName">sync_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/FIRST_TEST/dut/sync2x" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sync2x</obj_property>
+         <obj_property name="ObjectShortName">sync2x</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/FIRST_TEST/pmt_in1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pmt_in1</obj_property>
+      <obj_property name="ObjectShortName">pmt_in1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIRST_TEST/phcountbool" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">phcountbool</obj_property>
+      <obj_property name="ObjectShortName">phcountbool</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIRST_TEST/dut/sync_src" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sync_src</obj_property>
+      <obj_property name="ObjectShortName">sync_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIRST_TEST/SyncSource" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SyncSource</obj_property>
+      <obj_property name="ObjectShortName">SyncSource</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIRST_TEST/dut/TrigIn40" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TrigIn40[15:0]</obj_property>
+      <obj_property name="ObjectShortName">TrigIn40[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FIRST_TEST/dut/WireIn00" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WireIn00[15:0]</obj_property>
+      <obj_property name="ObjectShortName">WireIn00[15:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,29 @@
+Command line:
+   TestMicromotion_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1102
+
+Mon Oct 14 22:59:45 2013
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 318.194 Meg
+
+ Total Signals          : 2036
+ Total Nets             : 3356
+ Total Signal Drivers   : 1573
+ Total Blocks           : 186
+ Total Primitive Blocks : 139
+ Total Processes        : 2497
+ Total Traceable Variables  : 2947
+ Total Scalar Nets and Variables : 61060
+Total Line Count : 12519
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 319.242 Meg
+
+Mon Oct 14 23:22:55 2013
+

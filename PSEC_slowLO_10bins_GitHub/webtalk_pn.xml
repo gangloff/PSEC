@@ -3,11 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Mon Oct 21 11:41:52 2013">
+<application name="pn" timeStamp="Wed Dec 11 15:20:19 2013">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="F09DAFD294A1432E9E4852DBE1D05A10" type="project"/>
-<property name="ProjectIteration" value="81" type="project"/>
-<property name="ProjectFile" value="F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC/PhotonCounter.xise" type="project"/>
+<property name="ProjectIteration" value="83" type="project"/>
+<property name="ProjectFile" value="F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC/PSEC_slowLO_10bins_GitHub/PhotonCounter.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2012-04-19T16:25:28" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">
@@ -29,7 +29,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2012-04-19T16:25:28" type="design"/>
 <property name="PROP_intWbtProjectID" value="F09DAFD294A1432E9E4852DBE1D05A10" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="81" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="83" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_selectedSimRootSourceNode_behav" value="work.InternalTest1" type="process"/>

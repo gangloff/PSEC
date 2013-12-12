@@ -14,13 +14,13 @@
          <ClosedNode>/PhotonCounter F:|VIs|VV_Photonpy|MultiChannelBalancedCorrelatorGitHub_10_03_2013|PhotonCounter.v/okHI - okHost</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>PhotonCounter (F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC_working/PSEC_fastLO_10bins/PhotonCounter.v)</SelectedItem>
+         <SelectedItem>PhotonCounter (F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC/PSEC_fastLO_10bins_GitHub/PhotonCounter.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002f4000000020000000000000000000000000200000064ffffffff000000810000000300000002000002f40000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002ef000000020000000000000000000000000200000064ffffffff000000810000000300000002000002ef0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>PhotonCounter (F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC_working/PSEC_fastLO_10bins/PhotonCounter.v)</CurrentItem>
+      <CurrentItem>PhotonCounter (F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC/PSEC_fastLO_10bins_GitHub/PhotonCounter.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -39,7 +39,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001f5000000010000000100000000000000000000000064ffffffff000000810000000000000001000001f50000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b00000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Generate Programming File</CurrentItem>
    </ItemView>

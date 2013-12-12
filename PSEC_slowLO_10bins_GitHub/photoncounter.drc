@@ -1,7 +1,7 @@
 Release 14.2 Drc P.28xd (nt)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Mon Oct 21 11:42:41 2013
+Wed Dec 11 15:21:21 2013
 
 drc -z PhotonCounter.ncd PhotonCounter.pcf
 

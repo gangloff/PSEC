@@ -1,0 +1,57 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/InternalTest1_isim_beh.exe" -prj "F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/InternalTest1_beh.prj" "work.InternalTest1" "work.glbl" 
+ISim P.28xd (signature 0x1048c146)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/pll.v" into library work
+Analyzing Verilog file "F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/ipcore_dir/pipefifo_v6.v" into library work
+Analyzing Verilog file "E:/Program Files/Opal Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001/okLibrary.v" into library work
+Analyzing Verilog file "F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/PhotonCounter.v" into library work
+Analyzing Verilog file "F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/InternalTest1.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "E:/Program Files/Opal Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001/okLibrary.v" Line 34: Port CLK180 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Program Files/Opal Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001/okLibrary.v" Line 62: Port BUSY is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 77996 KB
+Fuse CPU Usage: 296 ms
+Compiling module IBUFG
+Compiling module BUFG
+Compiling module dcm_clock_divide_by_2
+Compiling module dcm_maximum_period_check(clock_n...
+Compiling module dcm_maximum_period_check(clock_n...
+Compiling module dcm_clock_lost
+Compiling module DCM(CLKIN_PERIOD=6.667,FACTORY_J...
+Compiling module pll
+Compiling module SRL16(INIT=16'b1111111111111111)
+Compiling module phcounter
+Compiling module logger
+Compiling module dcm_sp_clock_divide_by_2
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_clock_lost
+Compiling module DCM_SP
+Compiling module FDS
+Compiling module FD
+Compiling module IOBUF
+Compiling module IODELAY2(DELAY_SRC="IDATAIN",IDE...
+Compiling module FDRE
+Compiling module OBUF
+Compiling module okCore
+Compiling module okHost
+Compiling module fifo_generator_v6_1_bhv_ver_as(C...
+Compiling module FIFO_GENERATOR_V6_1(C_DATA_COUNT...
+Compiling module pipefifo_v6
+Compiling module okPipeOut
+Compiling module okTriggerIn
+Compiling module okWireIn
+Compiling module okWireOR(N=2)
+Compiling module PhotonCounter_default
+Compiling module InternalTest1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 18 sub-compilation(s) to finish...
+Compiled 34 Verilog Units
+Built simulation executable F:/VIs/VV_Photonpy/MultiChannelBalancedCorrelatorGitHub_10_03_2013_TEMPforSIM/InternalTest1_isim_beh.exe
+Fuse Memory Usage: 90352 KB
+Fuse CPU Usage: 1718 ms

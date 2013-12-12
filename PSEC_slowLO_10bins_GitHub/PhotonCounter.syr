@@ -3,14 +3,14 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 2.00 secs
-Total CPU time to Xst completion: 1.58 secs
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.89 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 2.00 secs
-Total CPU time to Xst completion: 1.58 secs
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.89 secs
  
 --> Reading design: PhotonCounter.prj
 
@@ -110,9 +110,9 @@ Cores Search Directories           : {"E:/Program Files/Opal Kelly/FrontPanelNEW
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\pll.v" into library work
+Analyzing Verilog file "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\pll.v" into library work
 Parsing module <pll>.
-Analyzing Verilog file "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\ipcore_dir\pipefifo_v6.v" into library work
+Analyzing Verilog file "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\ipcore_dir\pipefifo_v6.v" into library work
 Parsing module <pipefifo_v6>.
 Analyzing Verilog file "E:/Program Files/Opal Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001/okLibrary.v" into library work
 Parsing module <okHost>.
@@ -126,7 +126,7 @@ Parsing module <okPipeOut>.
 Parsing module <okBTPipeIn>.
 Parsing module <okBTPipeOut>.
 Parsing module <okWireOR>.
-Analyzing Verilog file "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" into library work
+Analyzing Verilog file "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v" into library work
 Parsing module <PhotonCounter>.
 Parsing module <phcounter>.
 Parsing module <logger>.
@@ -150,8 +150,8 @@ Elaborating module <SRL16(INIT=16'b1111111111111111)>.
 Elaborating module <phcounter>.
 
 Elaborating module <logger>.
-WARNING:HDLCompiler:413 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" Line 797: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" Line 817: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v" Line 895: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v" Line 915: Result of 11-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:1016 - "E:/Program Files/Opal Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001/okLibrary.v" Line 34: Port CLK180 is not connected to this instance
 WARNING:HDLCompiler:1016 - "E:/Program Files/Opal Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanelHDL/XEM6001/okLibrary.v" Line 62: Port BUSY is not connected to this instance
 
@@ -174,8 +174,8 @@ Elaborating module <OBUF>.
 Elaborating module <okCore>.
 
 Elaborating module <pipefifo_v6>.
-WARNING:HDLCompiler:1127 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" Line 625: Assignment to PipeFull1 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" Line 629: Assignment to PipeFull2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v" Line 722: Assignment to PipeFull1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v" Line 726: Assignment to PipeFull2 ignored, since the identifier is never used
 
 Elaborating module <okPipeOut>.
 
@@ -190,11 +190,11 @@ Elaborating module <okWireOR(N=2)>.
 =========================================================================
 
 Synthesizing Unit <PhotonCounter>.
-    Related source file is "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v".
+    Related source file is "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v".
         nOK = 2
-INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" line 89: Output port <CLKIN_IBUFG_OUT> of the instance <pllloop> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" line 623: Output port <full> of the instance <pipeoutfifo1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" line 627: Output port <full> of the instance <pipeoutfifo2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v" line 89: Output port <CLKIN_IBUFG_OUT> of the instance <pllloop> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v" line 720: Output port <full> of the instance <pipeoutfifo1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v" line 724: Output port <full> of the instance <pipeoutfifo2> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <reset>.
     Found 16-bit register for signal <max_count_f>.
     Found 1-bit register for signal <sync_src>.
@@ -265,6 +265,70 @@ INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" lin
     Found 1-bit register for signal <pw_div_out<1><2>>.
     Found 1-bit register for signal <pw_div_out<1><1>>.
     Found 1-bit register for signal <pw_div_out<1><0>>.
+    Found 1-bit register for signal <pw_div_out<2><31>>.
+    Found 1-bit register for signal <pw_div_out<2><30>>.
+    Found 1-bit register for signal <pw_div_out<2><29>>.
+    Found 1-bit register for signal <pw_div_out<2><28>>.
+    Found 1-bit register for signal <pw_div_out<2><27>>.
+    Found 1-bit register for signal <pw_div_out<2><26>>.
+    Found 1-bit register for signal <pw_div_out<2><25>>.
+    Found 1-bit register for signal <pw_div_out<2><24>>.
+    Found 1-bit register for signal <pw_div_out<2><23>>.
+    Found 1-bit register for signal <pw_div_out<2><22>>.
+    Found 1-bit register for signal <pw_div_out<2><21>>.
+    Found 1-bit register for signal <pw_div_out<2><20>>.
+    Found 1-bit register for signal <pw_div_out<2><19>>.
+    Found 1-bit register for signal <pw_div_out<2><18>>.
+    Found 1-bit register for signal <pw_div_out<2><17>>.
+    Found 1-bit register for signal <pw_div_out<2><16>>.
+    Found 1-bit register for signal <pw_div_out<2><15>>.
+    Found 1-bit register for signal <pw_div_out<2><14>>.
+    Found 1-bit register for signal <pw_div_out<2><13>>.
+    Found 1-bit register for signal <pw_div_out<2><12>>.
+    Found 1-bit register for signal <pw_div_out<2><11>>.
+    Found 1-bit register for signal <pw_div_out<2><10>>.
+    Found 1-bit register for signal <pw_div_out<2><9>>.
+    Found 1-bit register for signal <pw_div_out<2><8>>.
+    Found 1-bit register for signal <pw_div_out<2><7>>.
+    Found 1-bit register for signal <pw_div_out<2><6>>.
+    Found 1-bit register for signal <pw_div_out<2><5>>.
+    Found 1-bit register for signal <pw_div_out<2><4>>.
+    Found 1-bit register for signal <pw_div_out<2><3>>.
+    Found 1-bit register for signal <pw_div_out<2><2>>.
+    Found 1-bit register for signal <pw_div_out<2><1>>.
+    Found 1-bit register for signal <pw_div_out<2><0>>.
+    Found 1-bit register for signal <pw_div_out<3><31>>.
+    Found 1-bit register for signal <pw_div_out<3><30>>.
+    Found 1-bit register for signal <pw_div_out<3><29>>.
+    Found 1-bit register for signal <pw_div_out<3><28>>.
+    Found 1-bit register for signal <pw_div_out<3><27>>.
+    Found 1-bit register for signal <pw_div_out<3><26>>.
+    Found 1-bit register for signal <pw_div_out<3><25>>.
+    Found 1-bit register for signal <pw_div_out<3><24>>.
+    Found 1-bit register for signal <pw_div_out<3><23>>.
+    Found 1-bit register for signal <pw_div_out<3><22>>.
+    Found 1-bit register for signal <pw_div_out<3><21>>.
+    Found 1-bit register for signal <pw_div_out<3><20>>.
+    Found 1-bit register for signal <pw_div_out<3><19>>.
+    Found 1-bit register for signal <pw_div_out<3><18>>.
+    Found 1-bit register for signal <pw_div_out<3><17>>.
+    Found 1-bit register for signal <pw_div_out<3><16>>.
+    Found 1-bit register for signal <pw_div_out<3><15>>.
+    Found 1-bit register for signal <pw_div_out<3><14>>.
+    Found 1-bit register for signal <pw_div_out<3><13>>.
+    Found 1-bit register for signal <pw_div_out<3><12>>.
+    Found 1-bit register for signal <pw_div_out<3><11>>.
+    Found 1-bit register for signal <pw_div_out<3><10>>.
+    Found 1-bit register for signal <pw_div_out<3><9>>.
+    Found 1-bit register for signal <pw_div_out<3><8>>.
+    Found 1-bit register for signal <pw_div_out<3><7>>.
+    Found 1-bit register for signal <pw_div_out<3><6>>.
+    Found 1-bit register for signal <pw_div_out<3><5>>.
+    Found 1-bit register for signal <pw_div_out<3><4>>.
+    Found 1-bit register for signal <pw_div_out<3><3>>.
+    Found 1-bit register for signal <pw_div_out<3><2>>.
+    Found 1-bit register for signal <pw_div_out<3><1>>.
+    Found 1-bit register for signal <pw_div_out<3><0>>.
     Found 1-bit register for signal <delay_div_out<0><31>>.
     Found 1-bit register for signal <delay_div_out<0><30>>.
     Found 1-bit register for signal <delay_div_out<0><29>>.
@@ -329,6 +393,70 @@ INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" lin
     Found 1-bit register for signal <delay_div_out<1><2>>.
     Found 1-bit register for signal <delay_div_out<1><1>>.
     Found 1-bit register for signal <delay_div_out<1><0>>.
+    Found 1-bit register for signal <delay_div_out<2><31>>.
+    Found 1-bit register for signal <delay_div_out<2><30>>.
+    Found 1-bit register for signal <delay_div_out<2><29>>.
+    Found 1-bit register for signal <delay_div_out<2><28>>.
+    Found 1-bit register for signal <delay_div_out<2><27>>.
+    Found 1-bit register for signal <delay_div_out<2><26>>.
+    Found 1-bit register for signal <delay_div_out<2><25>>.
+    Found 1-bit register for signal <delay_div_out<2><24>>.
+    Found 1-bit register for signal <delay_div_out<2><23>>.
+    Found 1-bit register for signal <delay_div_out<2><22>>.
+    Found 1-bit register for signal <delay_div_out<2><21>>.
+    Found 1-bit register for signal <delay_div_out<2><20>>.
+    Found 1-bit register for signal <delay_div_out<2><19>>.
+    Found 1-bit register for signal <delay_div_out<2><18>>.
+    Found 1-bit register for signal <delay_div_out<2><17>>.
+    Found 1-bit register for signal <delay_div_out<2><16>>.
+    Found 1-bit register for signal <delay_div_out<2><15>>.
+    Found 1-bit register for signal <delay_div_out<2><14>>.
+    Found 1-bit register for signal <delay_div_out<2><13>>.
+    Found 1-bit register for signal <delay_div_out<2><12>>.
+    Found 1-bit register for signal <delay_div_out<2><11>>.
+    Found 1-bit register for signal <delay_div_out<2><10>>.
+    Found 1-bit register for signal <delay_div_out<2><9>>.
+    Found 1-bit register for signal <delay_div_out<2><8>>.
+    Found 1-bit register for signal <delay_div_out<2><7>>.
+    Found 1-bit register for signal <delay_div_out<2><6>>.
+    Found 1-bit register for signal <delay_div_out<2><5>>.
+    Found 1-bit register for signal <delay_div_out<2><4>>.
+    Found 1-bit register for signal <delay_div_out<2><3>>.
+    Found 1-bit register for signal <delay_div_out<2><2>>.
+    Found 1-bit register for signal <delay_div_out<2><1>>.
+    Found 1-bit register for signal <delay_div_out<2><0>>.
+    Found 1-bit register for signal <delay_div_out<3><31>>.
+    Found 1-bit register for signal <delay_div_out<3><30>>.
+    Found 1-bit register for signal <delay_div_out<3><29>>.
+    Found 1-bit register for signal <delay_div_out<3><28>>.
+    Found 1-bit register for signal <delay_div_out<3><27>>.
+    Found 1-bit register for signal <delay_div_out<3><26>>.
+    Found 1-bit register for signal <delay_div_out<3><25>>.
+    Found 1-bit register for signal <delay_div_out<3><24>>.
+    Found 1-bit register for signal <delay_div_out<3><23>>.
+    Found 1-bit register for signal <delay_div_out<3><22>>.
+    Found 1-bit register for signal <delay_div_out<3><21>>.
+    Found 1-bit register for signal <delay_div_out<3><20>>.
+    Found 1-bit register for signal <delay_div_out<3><19>>.
+    Found 1-bit register for signal <delay_div_out<3><18>>.
+    Found 1-bit register for signal <delay_div_out<3><17>>.
+    Found 1-bit register for signal <delay_div_out<3><16>>.
+    Found 1-bit register for signal <delay_div_out<3><15>>.
+    Found 1-bit register for signal <delay_div_out<3><14>>.
+    Found 1-bit register for signal <delay_div_out<3><13>>.
+    Found 1-bit register for signal <delay_div_out<3><12>>.
+    Found 1-bit register for signal <delay_div_out<3><11>>.
+    Found 1-bit register for signal <delay_div_out<3><10>>.
+    Found 1-bit register for signal <delay_div_out<3><9>>.
+    Found 1-bit register for signal <delay_div_out<3><8>>.
+    Found 1-bit register for signal <delay_div_out<3><7>>.
+    Found 1-bit register for signal <delay_div_out<3><6>>.
+    Found 1-bit register for signal <delay_div_out<3><5>>.
+    Found 1-bit register for signal <delay_div_out<3><4>>.
+    Found 1-bit register for signal <delay_div_out<3><3>>.
+    Found 1-bit register for signal <delay_div_out<3><2>>.
+    Found 1-bit register for signal <delay_div_out<3><1>>.
+    Found 1-bit register for signal <delay_div_out<3><0>>.
     Found 1-bit register for signal <pw_div_in<0><31>>.
     Found 1-bit register for signal <pw_div_in<0><30>>.
     Found 1-bit register for signal <pw_div_in<0><29>>.
@@ -361,6 +489,38 @@ INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" lin
     Found 1-bit register for signal <pw_div_in<0><2>>.
     Found 1-bit register for signal <pw_div_in<0><1>>.
     Found 1-bit register for signal <pw_div_in<0><0>>.
+    Found 1-bit register for signal <pw_div_in<1><31>>.
+    Found 1-bit register for signal <pw_div_in<1><30>>.
+    Found 1-bit register for signal <pw_div_in<1><29>>.
+    Found 1-bit register for signal <pw_div_in<1><28>>.
+    Found 1-bit register for signal <pw_div_in<1><27>>.
+    Found 1-bit register for signal <pw_div_in<1><26>>.
+    Found 1-bit register for signal <pw_div_in<1><25>>.
+    Found 1-bit register for signal <pw_div_in<1><24>>.
+    Found 1-bit register for signal <pw_div_in<1><23>>.
+    Found 1-bit register for signal <pw_div_in<1><22>>.
+    Found 1-bit register for signal <pw_div_in<1><21>>.
+    Found 1-bit register for signal <pw_div_in<1><20>>.
+    Found 1-bit register for signal <pw_div_in<1><19>>.
+    Found 1-bit register for signal <pw_div_in<1><18>>.
+    Found 1-bit register for signal <pw_div_in<1><17>>.
+    Found 1-bit register for signal <pw_div_in<1><16>>.
+    Found 1-bit register for signal <pw_div_in<1><15>>.
+    Found 1-bit register for signal <pw_div_in<1><14>>.
+    Found 1-bit register for signal <pw_div_in<1><13>>.
+    Found 1-bit register for signal <pw_div_in<1><12>>.
+    Found 1-bit register for signal <pw_div_in<1><11>>.
+    Found 1-bit register for signal <pw_div_in<1><10>>.
+    Found 1-bit register for signal <pw_div_in<1><9>>.
+    Found 1-bit register for signal <pw_div_in<1><8>>.
+    Found 1-bit register for signal <pw_div_in<1><7>>.
+    Found 1-bit register for signal <pw_div_in<1><6>>.
+    Found 1-bit register for signal <pw_div_in<1><5>>.
+    Found 1-bit register for signal <pw_div_in<1><4>>.
+    Found 1-bit register for signal <pw_div_in<1><3>>.
+    Found 1-bit register for signal <pw_div_in<1><2>>.
+    Found 1-bit register for signal <pw_div_in<1><1>>.
+    Found 1-bit register for signal <pw_div_in<1><0>>.
     Found 1-bit register for signal <delay_div_in<0><31>>.
     Found 1-bit register for signal <delay_div_in<0><30>>.
     Found 1-bit register for signal <delay_div_in<0><29>>.
@@ -393,6 +553,38 @@ INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" lin
     Found 1-bit register for signal <delay_div_in<0><2>>.
     Found 1-bit register for signal <delay_div_in<0><1>>.
     Found 1-bit register for signal <delay_div_in<0><0>>.
+    Found 1-bit register for signal <delay_div_in<1><31>>.
+    Found 1-bit register for signal <delay_div_in<1><30>>.
+    Found 1-bit register for signal <delay_div_in<1><29>>.
+    Found 1-bit register for signal <delay_div_in<1><28>>.
+    Found 1-bit register for signal <delay_div_in<1><27>>.
+    Found 1-bit register for signal <delay_div_in<1><26>>.
+    Found 1-bit register for signal <delay_div_in<1><25>>.
+    Found 1-bit register for signal <delay_div_in<1><24>>.
+    Found 1-bit register for signal <delay_div_in<1><23>>.
+    Found 1-bit register for signal <delay_div_in<1><22>>.
+    Found 1-bit register for signal <delay_div_in<1><21>>.
+    Found 1-bit register for signal <delay_div_in<1><20>>.
+    Found 1-bit register for signal <delay_div_in<1><19>>.
+    Found 1-bit register for signal <delay_div_in<1><18>>.
+    Found 1-bit register for signal <delay_div_in<1><17>>.
+    Found 1-bit register for signal <delay_div_in<1><16>>.
+    Found 1-bit register for signal <delay_div_in<1><15>>.
+    Found 1-bit register for signal <delay_div_in<1><14>>.
+    Found 1-bit register for signal <delay_div_in<1><13>>.
+    Found 1-bit register for signal <delay_div_in<1><12>>.
+    Found 1-bit register for signal <delay_div_in<1><11>>.
+    Found 1-bit register for signal <delay_div_in<1><10>>.
+    Found 1-bit register for signal <delay_div_in<1><9>>.
+    Found 1-bit register for signal <delay_div_in<1><8>>.
+    Found 1-bit register for signal <delay_div_in<1><7>>.
+    Found 1-bit register for signal <delay_div_in<1><6>>.
+    Found 1-bit register for signal <delay_div_in<1><5>>.
+    Found 1-bit register for signal <delay_div_in<1><4>>.
+    Found 1-bit register for signal <delay_div_in<1><3>>.
+    Found 1-bit register for signal <delay_div_in<1><2>>.
+    Found 1-bit register for signal <delay_div_in<1><1>>.
+    Found 1-bit register for signal <delay_div_in<1><0>>.
     Found 32-bit register for signal <slow_pulsePeriod_div>.
     Found 1-bit register for signal <slow_pw_div_out<0><31>>.
     Found 1-bit register for signal <slow_pw_div_out<0><30>>.
@@ -458,6 +650,70 @@ INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" lin
     Found 1-bit register for signal <slow_pw_div_out<1><2>>.
     Found 1-bit register for signal <slow_pw_div_out<1><1>>.
     Found 1-bit register for signal <slow_pw_div_out<1><0>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><31>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><30>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><29>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><28>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><27>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><26>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><25>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><24>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><23>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><22>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><21>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><20>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><19>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><18>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><17>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><16>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><15>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><14>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><13>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><12>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><11>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><10>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><9>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><8>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><7>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><6>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><5>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><4>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><3>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><2>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><1>>.
+    Found 1-bit register for signal <slow_pw_div_out<2><0>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><31>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><30>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><29>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><28>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><27>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><26>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><25>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><24>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><23>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><22>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><21>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><20>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><19>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><18>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><17>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><16>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><15>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><14>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><13>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><12>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><11>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><10>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><9>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><8>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><7>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><6>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><5>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><4>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><3>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><2>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><1>>.
+    Found 1-bit register for signal <slow_pw_div_out<3><0>>.
     Found 1-bit register for signal <slow_delay_div_out<0><31>>.
     Found 1-bit register for signal <slow_delay_div_out<0><30>>.
     Found 1-bit register for signal <slow_delay_div_out<0><29>>.
@@ -522,6 +778,70 @@ INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" lin
     Found 1-bit register for signal <slow_delay_div_out<1><2>>.
     Found 1-bit register for signal <slow_delay_div_out<1><1>>.
     Found 1-bit register for signal <slow_delay_div_out<1><0>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><31>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><30>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><29>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><28>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><27>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><26>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><25>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><24>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><23>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><22>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><21>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><20>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><19>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><18>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><17>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><16>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><15>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><14>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><13>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><12>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><11>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><10>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><9>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><8>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><7>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><6>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><5>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><4>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><3>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><2>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><1>>.
+    Found 1-bit register for signal <slow_delay_div_out<2><0>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><31>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><30>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><29>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><28>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><27>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><26>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><25>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><24>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><23>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><22>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><21>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><20>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><19>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><18>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><17>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><16>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><15>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><14>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><13>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><12>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><11>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><10>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><9>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><8>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><7>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><6>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><5>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><4>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><3>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><2>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><1>>.
+    Found 1-bit register for signal <slow_delay_div_out<3><0>>.
     Found 1-bit register for signal <slow_pw_div_in<0><31>>.
     Found 1-bit register for signal <slow_pw_div_in<0><30>>.
     Found 1-bit register for signal <slow_pw_div_in<0><29>>.
@@ -669,14 +989,14 @@ INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" lin
     Found 1-bit register for signal <set_clk>.
     Found 8-bit register for signal <shifts_counter>.
     Found 32-bit register for signal <sync_counter_long>.
-    Found 2-bit register for signal <slow_pulsed_sig_det>.
-    Found 2-bit register for signal <slow_pulse_out>.
+    Found 4-bit register for signal <slow_pulsed_sig_det>.
+    Found 4-bit register for signal <slow_pulse_out>.
     Found 2-bit register for signal <slow_read_pulse_det>.
     Found 1-bit register for signal <slow_read_pulse<0>>.
     Found 32-bit register for signal <clk2x_periodCounter>.
-    Found 2-bit register for signal <pulsed_sig_det>.
-    Found 2-bit register for signal <pulsed_sig>.
-    Found 1-bit register for signal <read_pulse_det<0>>.
+    Found 4-bit register for signal <pulsed_sig_det>.
+    Found 4-bit register for signal <pulsed_sig>.
+    Found 2-bit register for signal <read_pulse_det>.
     Found 1-bit register for signal <read_pulse<0>>.
     Found 4-bit register for signal <pmt_buf1>.
     Found 4-bit register for signal <pmt_buf2>.
@@ -699,67 +1019,82 @@ INFO:Xst:3210 - "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v" lin
     Found 1-bit register for signal <clear_det>.
     Found 1-bit register for signal <clear_photons>.
     Found 1-bit register for signal <reset_buf>.
-    Found 4-bit subtractor for signal <pmt_strecher[3]_GND_1_o_sub_125_OUT> created at line 488.
-    Found 8-bit adder for signal <sync_counter[7]_GND_1_o_add_44_OUT> created at line 319.
-    Found 32-bit adder for signal <clk2x_counter_intsync[31]_GND_1_o_add_52_OUT> created at line 335.
-    Found 32-bit adder for signal <nintcyc_counter[31]_GND_1_o_add_58_OUT> created at line 342.
-    Found 32-bit adder for signal <clk2x_counter[31]_GND_1_o_add_65_OUT> created at line 362.
-    Found 8-bit adder for signal <shifts_counter[7]_GND_1_o_add_72_OUT> created at line 369.
-    Found 32-bit adder for signal <slow_pulse_end_out<0>> created at line 384.
-    Found 32-bit adder for signal <slow_pulse_end_out<1>> created at line 385.
-    Found 32-bit adder for signal <slow_pulse_end_in<0>> created at line 386.
-    Found 32-bit adder for signal <slow_pulse_end_in<1>> created at line 387.
-    Found 32-bit adder for signal <sync_counter_long[31]_GND_1_o_add_83_OUT> created at line 393.
-    Found 32-bit adder for signal <pulse_end_out<0>> created at line 424.
-    Found 32-bit adder for signal <pulse_end_out<1>> created at line 425.
-    Found 32-bit adder for signal <pulse_end_in<0>> created at line 426.
-    Found 32-bit adder for signal <clk2x_periodCounter[31]_GND_1_o_add_105_OUT> created at line 434.
-    Found 8-bit adder for signal <timebin_counter1[7]_GND_1_o_add_134_OUT> created at line 552.
-    Found 8-bit adder for signal <timebin_counter2[7]_GND_1_o_add_136_OUT> created at line 553.
-    Found 32-bit adder for signal <counter_f[31]_GND_1_o_add_152_OUT> created at line 591.
-    Found 8-bit comparator equal for signal <sync_counter[7]_sync_div[7]_equal_44_o> created at line 319
-    Found 32-bit comparator equal for signal <clk2x_counter_intsync[31]_clk_divide[31]_equal_52_o> created at line 332
-    Found 8-bit comparator greater for signal <sr_active> created at line 352
-    Found 32-bit comparator equal for signal <clk2x_counter[31]_clk_divide[31]_equal_65_o> created at line 359
-    Found 32-bit comparator lessequal for signal <n1122> created at line 390
-    Found 32-bit comparator greater for signal <sync_counter_long[31]_slow_pulse_end_out[0][31]_LessThan_87_o> created at line 395
-    Found 32-bit comparator lessequal for signal <n1130> created at line 395
-    Found 32-bit comparator greater for signal <sync_counter_long[31]_slow_pulse_end_out[1][31]_LessThan_89_o> created at line 398
-    Found 32-bit comparator lessequal for signal <n1134> created at line 398
-    Found 32-bit comparator greater for signal <sync_counter_long[31]_slow_pulse_end_in[0][31]_LessThan_91_o> created at line 401
-    Found 32-bit comparator lessequal for signal <n1138> created at line 401
-    Found 32-bit comparator greater for signal <sync_counter_long[31]_slow_pulse_end_in[1][31]_LessThan_93_o> created at line 404
-    Found 32-bit comparator lessequal for signal <n1142> created at line 404
-    Found 32-bit comparator equal for signal <clk2x_periodCounter[31]_pulsePeriod_div[31]_equal_105_o> created at line 431
-    Found 32-bit comparator greater for signal <clk2x_periodCounter[31]_pulse_end_out[0][31]_LessThan_108_o> created at line 436
-    Found 32-bit comparator lessequal for signal <n1161> created at line 436
-    Found 32-bit comparator greater for signal <clk2x_periodCounter[31]_pulse_end_out[1][31]_LessThan_110_o> created at line 439
-    Found 32-bit comparator lessequal for signal <n1165> created at line 439
-    Found 32-bit comparator greater for signal <clk2x_periodCounter[31]_pulse_end_in[0][31]_LessThan_112_o> created at line 442
-    Found 32-bit comparator lessequal for signal <n1169> created at line 442
-    Found 16-bit comparator greater for signal <max_count_f[15]_counter_f[31]_LessThan_151_o> created at line 585
+    Found 4-bit subtractor for signal <pmt_strecher[3]_GND_1_o_sub_145_OUT> created at line 585.
+    Found 8-bit adder for signal <sync_counter[7]_GND_1_o_add_48_OUT> created at line 393.
+    Found 32-bit adder for signal <clk2x_counter_intsync[31]_GND_1_o_add_56_OUT> created at line 409.
+    Found 32-bit adder for signal <nintcyc_counter[31]_GND_1_o_add_62_OUT> created at line 416.
+    Found 32-bit adder for signal <clk2x_counter[31]_GND_1_o_add_69_OUT> created at line 436.
+    Found 8-bit adder for signal <shifts_counter[7]_GND_1_o_add_76_OUT> created at line 443.
+    Found 32-bit adder for signal <slow_pulse_end_out<0>> created at line 458.
+    Found 32-bit adder for signal <slow_pulse_end_out<1>> created at line 459.
+    Found 32-bit adder for signal <slow_pulse_end_out<2>> created at line 460.
+    Found 32-bit adder for signal <slow_pulse_end_out<3>> created at line 461.
+    Found 32-bit adder for signal <slow_pulse_end_in<0>> created at line 462.
+    Found 32-bit adder for signal <slow_pulse_end_in<1>> created at line 463.
+    Found 32-bit adder for signal <sync_counter_long[31]_GND_1_o_add_89_OUT> created at line 469.
+    Found 32-bit adder for signal <pulse_end_out<0>> created at line 508.
+    Found 32-bit adder for signal <pulse_end_out<1>> created at line 509.
+    Found 32-bit adder for signal <pulse_end_out<2>> created at line 510.
+    Found 32-bit adder for signal <pulse_end_out<3>> created at line 511.
+    Found 32-bit adder for signal <pulse_end_in<0>> created at line 512.
+    Found 32-bit adder for signal <pulse_end_in<1>> created at line 513.
+    Found 32-bit adder for signal <clk2x_periodCounter[31]_GND_1_o_add_117_OUT> created at line 520.
+    Found 8-bit adder for signal <timebin_counter1[7]_GND_1_o_add_154_OUT> created at line 649.
+    Found 8-bit adder for signal <timebin_counter2[7]_GND_1_o_add_156_OUT> created at line 650.
+    Found 32-bit adder for signal <counter_f[31]_GND_1_o_add_172_OUT> created at line 688.
+    Found 8-bit comparator equal for signal <sync_counter[7]_sync_div[7]_equal_48_o> created at line 393
+    Found 32-bit comparator equal for signal <clk2x_counter_intsync[31]_clk_divide[31]_equal_56_o> created at line 406
+    Found 8-bit comparator greater for signal <sr_active> created at line 426
+    Found 32-bit comparator equal for signal <clk2x_counter[31]_clk_divide[31]_equal_69_o> created at line 433
+    Found 32-bit comparator lessequal for signal <n1640> created at line 466
+    Found 32-bit comparator greater for signal <sync_counter_long[31]_slow_pulse_end_out[0][31]_LessThan_93_o> created at line 471
+    Found 32-bit comparator lessequal for signal <n1648> created at line 471
+    Found 32-bit comparator greater for signal <sync_counter_long[31]_slow_pulse_end_out[1][31]_LessThan_95_o> created at line 474
+    Found 32-bit comparator lessequal for signal <n1652> created at line 474
+    Found 32-bit comparator greater for signal <sync_counter_long[31]_slow_pulse_end_out[2][31]_LessThan_97_o> created at line 477
+    Found 32-bit comparator lessequal for signal <n1656> created at line 477
+    Found 32-bit comparator greater for signal <sync_counter_long[31]_slow_pulse_end_out[3][31]_LessThan_99_o> created at line 480
+    Found 32-bit comparator lessequal for signal <n1660> created at line 480
+    Found 32-bit comparator greater for signal <sync_counter_long[31]_slow_pulse_end_in[0][31]_LessThan_101_o> created at line 483
+    Found 32-bit comparator lessequal for signal <n1664> created at line 483
+    Found 32-bit comparator greater for signal <sync_counter_long[31]_slow_pulse_end_in[1][31]_LessThan_103_o> created at line 486
+    Found 32-bit comparator lessequal for signal <n1668> created at line 486
+    Found 32-bit comparator equal for signal <clk2x_periodCounter[31]_pulsePeriod_div[31]_equal_117_o> created at line 517
+    Found 32-bit comparator greater for signal <clk2x_periodCounter[31]_pulse_end_out[0][31]_LessThan_120_o> created at line 522
+    Found 32-bit comparator lessequal for signal <n1692> created at line 522
+    Found 32-bit comparator greater for signal <clk2x_periodCounter[31]_pulse_end_out[1][31]_LessThan_122_o> created at line 525
+    Found 32-bit comparator lessequal for signal <n1696> created at line 525
+    Found 32-bit comparator greater for signal <clk2x_periodCounter[31]_pulse_end_out[2][31]_LessThan_124_o> created at line 528
+    Found 32-bit comparator lessequal for signal <n1700> created at line 528
+    Found 32-bit comparator greater for signal <clk2x_periodCounter[31]_pulse_end_out[3][31]_LessThan_126_o> created at line 531
+    Found 32-bit comparator lessequal for signal <n1704> created at line 531
+    Found 32-bit comparator greater for signal <clk2x_periodCounter[31]_pulse_end_in[0][31]_LessThan_128_o> created at line 534
+    Found 32-bit comparator lessequal for signal <n1708> created at line 534
+    Found 32-bit comparator greater for signal <clk2x_periodCounter[31]_pulse_end_in[1][31]_LessThan_130_o> created at line 537
+    Found 32-bit comparator lessequal for signal <n1712> created at line 537
+    Found 16-bit comparator greater for signal <max_count_f[15]_counter_f[31]_LessThan_171_o> created at line 682
     Summary:
-	inferred  18 Adder/Subtractor(s).
-	inferred 1166 D-type flip-flop(s).
-	inferred  21 Comparator(s).
+	inferred  23 Adder/Subtractor(s).
+	inferred 1495 D-type flip-flop(s).
+	inferred  31 Comparator(s).
 	inferred   1 Multiplexer(s).
 Unit <PhotonCounter> synthesized.
 
 Synthesizing Unit <pll>.
-    Related source file is "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\pll.v".
+    Related source file is "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\pll.v".
     Summary:
 	no macro.
 Unit <pll> synthesized.
 
 Synthesizing Unit <phcounter>.
-    Related source file is "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v".
+    Related source file is "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v".
     Found 1-bit register for signal <syncdly_f>.
     Found 1-bit register for signal <sync_f>.
     Found 16-bit register for signal <count_f>.
     Found 1-bit register for signal <full_flag>.
     Found 16-bit register for signal <count_o>.
     Found 8-bit register for signal <photon_f>.
-    Found 16-bit adder for signal <count_f[15]_GND_7_o_add_3_OUT> created at line 727.
+    Found 16-bit adder for signal <count_f[15]_GND_7_o_add_3_OUT> created at line 825.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  43 D-type flip-flop(s).
@@ -767,7 +1102,7 @@ Synthesizing Unit <phcounter>.
 Unit <phcounter> synthesized.
 
 Synthesizing Unit <logger>.
-    Related source file is "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PhotonCounter.v".
+    Related source file is "F:\VIs\PULSE_SEQUENCER_AND_CORRELATOR\PSEC\PSEC_slowLO_10bins_GitHub\PhotonCounter.v".
     Set property "INIT = R" for signal <state_f>.
     Found 1-bit register for signal <wr_o>.
     Found 16-bit register for signal <data_o>.
@@ -858,25 +1193,25 @@ Unit <okWireOR> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 38
+# Adders/Subtractors                                   : 43
  16-bit adder                                          : 20
- 32-bit adder                                          : 13
+ 32-bit adder                                          : 18
  4-bit subtractor                                      : 1
  8-bit adder                                           : 4
-# Registers                                            : 198
- 1-bit register                                        : 92
+# Registers                                            : 208
+ 1-bit register                                        : 91
  10-bit register                                       : 2
  16-bit register                                       : 43
- 2-bit register                                        : 5
- 32-bit register                                       : 23
- 4-bit register                                        : 4
+ 2-bit register                                        : 2
+ 32-bit register                                       : 33
+ 4-bit register                                        : 8
  8-bit register                                        : 25
  80-bit register                                       : 4
-# Comparators                                          : 21
+# Comparators                                          : 31
  16-bit comparator greater                             : 1
  32-bit comparator equal                               : 3
- 32-bit comparator greater                             : 7
- 32-bit comparator lessequal                           : 8
+ 32-bit comparator greater                             : 12
+ 32-bit comparator lessequal                           : 13
  8-bit comparator equal                                : 1
  8-bit comparator greater                              : 1
 # Multiplexers                                         : 27
@@ -900,6 +1235,7 @@ Reading core <E:/Program Files/Opal Kelly/FrontPanelNEW/FrontPanelUSB/FrontPanel
 Loading core <okPipeOut> for timing and area information for instance <pipeOuta0>.
 Loading core <okPipeOut> for timing and area information for instance <pipeOutaf>.
 Loading core <okTriggerIn> for timing and area information for instance <ep40>.
+Loading core <okTriggerIn> for timing and area information for instance <ep41>.
 Loading core <okWireIn> for timing and area information for instance <ep00>.
 Loading core <okWireIn> for timing and area information for instance <ep01>.
 Loading core <okWireIn> for timing and area information for instance <ep02>.
@@ -910,6 +1246,7 @@ Loading core <pipefifo_v6> for timing and area information for instance <pipeout
 Loading core <pipefifo_v6> for timing and area information for instance <pipeoutfifo2>.
 Loading core <okCore> for timing and area information for instance <hicore>.
 WARNING:Xst:2677 - Node <slow_read_pulse_det_1> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <read_pulse_det_1> of sequential type is unconnected in block <PhotonCounter>.
 
 Synthesizing (advanced) Unit <PhotonCounter>.
 The following registers are absorbed into counter <counter_f>: 1 register on signal <counter_f>.
@@ -929,6 +1266,7 @@ Synthesizing (advanced) Unit <phcounter>.
 The following registers are absorbed into accumulator <count_f>: 1 register on signal <count_f>.
 Unit <phcounter> synthesized (advanced).
 WARNING:Xst:2677 - Node <slow_read_pulse_det_1> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <read_pulse_det_1> of sequential type is unconnected in block <PhotonCounter>.
 WARNING:Xst:2677 - Node <slow_pw_div_in_01> of sequential type is unconnected in block <PhotonCounter>.
 WARNING:Xst:2677 - Node <slow_pw_div_in_110> of sequential type is unconnected in block <PhotonCounter>.
 WARNING:Xst:2677 - Node <slow_pw_div_in_210> of sequential type is unconnected in block <PhotonCounter>.
@@ -993,26 +1331,90 @@ WARNING:Xst:2677 - Node <slow_delay_div_in_281> of sequential type is unconnecte
 WARNING:Xst:2677 - Node <slow_delay_div_in_291> of sequential type is unconnected in block <PhotonCounter>.
 WARNING:Xst:2677 - Node <slow_delay_div_in_301> of sequential type is unconnected in block <PhotonCounter>.
 WARNING:Xst:2677 - Node <slow_delay_div_in_311> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_01> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_110> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_210> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_32> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_41> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_51> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_61> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_71> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_81> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_91> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_101> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_111> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_121> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_131> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_141> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_151> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_161> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_171> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_181> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_191> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_201> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_211> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_221> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_231> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_241> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_251> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_261> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_271> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_281> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_291> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_301> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <pw_div_in_311> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_01> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_110> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_210> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_32> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_41> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_51> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_61> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_71> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_81> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_91> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_101> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_111> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_121> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_131> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_141> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_151> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_161> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_171> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_181> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_191> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_201> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_211> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_221> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_231> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_241> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_251> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_261> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_271> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_281> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_291> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_301> of sequential type is unconnected in block <PhotonCounter>.
+WARNING:Xst:2677 - Node <delay_div_in_311> of sequential type is unconnected in block <PhotonCounter>.
 
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 7
- 32-bit adder                                          : 7
+# Adders/Subtractors                                   : 11
+ 32-bit adder                                          : 11
 # Counters                                             : 11
  32-bit up counter                                     : 6
  4-bit down counter                                    : 1
  8-bit up counter                                      : 4
 # Accumulators                                         : 20
  16-bit up accumulator                                 : 20
-# Registers                                            : 1521
- Flip-Flops                                            : 1521
-# Comparators                                          : 19
+# Registers                                            : 1785
+ Flip-Flops                                            : 1785
+# Comparators                                          : 27
  16-bit comparator greater                             : 1
  32-bit comparator equal                               : 3
- 32-bit comparator greater                             : 6
- 32-bit comparator lessequal                           : 7
+ 32-bit comparator greater                             : 10
+ 32-bit comparator lessequal                           : 11
  8-bit comparator equal                                : 1
  8-bit comparator greater                              : 1
 # Multiplexers                                         : 44
@@ -1051,12 +1453,16 @@ INFO:Xst:2261 - The FF/Latch <counter2<9>/syncdly_f> in Unit <PhotonCounter> is 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block PhotonCounter, actual ratio is 39.
+Found area constraint ratio of 100 (+ 5) on block PhotonCounter, actual ratio is 47.
 Forward register balancing over carry chain Madd_slow_pulse_end_out<0>_cy<0>
+Forward register balancing over carry chain Madd_slow_pulse_end_out<2>_cy<0>
 Forward register balancing over carry chain Madd_slow_pulse_end_out<1>_cy<0>
+Forward register balancing over carry chain Madd_slow_pulse_end_out<3>_cy<0>
 Forward register balancing over carry chain Madd_slow_pulse_end_in<0>_cy<0>
-Forward register balancing over carry chain Madd_pulse_end_out<0>_cy<0>
 Forward register balancing over carry chain Madd_pulse_end_out<1>_cy<0>
+Forward register balancing over carry chain Madd_pulse_end_out<0>_cy<0>
+Forward register balancing over carry chain Madd_pulse_end_out<2>_cy<0>
+Forward register balancing over carry chain Madd_pulse_end_out<3>_cy<0>
 Forward register balancing over carry chain Madd_pulse_end_in<0>_cy<0>
 INFO:Xst:2261 - The FF/Latch <sync2x_free> in Unit <PhotonCounter> is equivalent to the following 19 FFs/Latches, which will be removed : <sync_counter_long_31_BRB1> <sync_counter_long_30_BRB1> <sync_counter_long_29_BRB1> <sync_counter_long_28_BRB1> <sync_counter_long_27_BRB1> <sync_counter_long_26_BRB1> <sync_counter_long_25_BRB1> <sync_counter_long_24_BRB1> <sync_counter_long_23_BRB1> <sync_counter_long_22_BRB1> <sync_counter_long_21_BRB1> <sync_counter_long_20_BRB1> <sync_counter_long_19_BRB1> <sync_counter_long_18_BRB1> <sync_counter_long_17_BRB1> <sync_counter_long_16_BRB1> <sync_counter_long_15_BRB1> <sync_counter_long_14_BRB1> <sync_counter_long_13_BRB1> 
 INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i> 
@@ -1123,10 +1529,14 @@ Processing Unit <PhotonCounter> :
 	Register(s) pmt_det2 has(ve) been backward balanced into : pmt_det2_BRB0 pmt_det2_BRB1.
 	Register(s) pulsed_sig_det_0 has(ve) been backward balanced into : pulsed_sig_det_0_BRB0 pulsed_sig_det_0_BRB1.
 	Register(s) pulsed_sig_det_1 has(ve) been backward balanced into : pulsed_sig_det_1_BRB0 pulsed_sig_det_1_BRB1.
+	Register(s) pulsed_sig_det_2 has(ve) been backward balanced into : pulsed_sig_det_2_BRB0 pulsed_sig_det_2_BRB1.
+	Register(s) pulsed_sig_det_3 has(ve) been backward balanced into : pulsed_sig_det_3_BRB0 pulsed_sig_det_3_BRB1.
 	Register(s) read_pulse_det_0 has(ve) been backward balanced into : read_pulse_det_0_BRB0 read_pulse_det_0_BRB1.
 	Register(s) reset_buf has(ve) been backward balanced into : reset_buf_BRB0 reset_buf_BRB1 reset_buf_BRB2.
 	Register(s) slow_pulsed_sig_det_0 has(ve) been backward balanced into : slow_pulsed_sig_det_0_BRB0 slow_pulsed_sig_det_0_BRB1.
 	Register(s) slow_pulsed_sig_det_1 has(ve) been backward balanced into : slow_pulsed_sig_det_1_BRB0 slow_pulsed_sig_det_1_BRB1.
+	Register(s) slow_pulsed_sig_det_2 has(ve) been backward balanced into : slow_pulsed_sig_det_2_BRB0 slow_pulsed_sig_det_2_BRB1.
+	Register(s) slow_pulsed_sig_det_3 has(ve) been backward balanced into : slow_pulsed_sig_det_3_BRB0 slow_pulsed_sig_det_3_BRB1.
 	Register(s) slow_read_pulse_det_0 has(ve) been backward balanced into : slow_read_pulse_det_0_BRB0 slow_read_pulse_det_0_BRB1.
 	Register(s) sync1x has(ve) been backward balanced into : sync1x_BRB0 sync1x_BRB1.
 	Register(s) sync_buf_0 has(ve) been backward balanced into : sync_buf_0_BRB0 sync_buf_0_BRB1 sync_buf_0_BRB2.
@@ -1152,10 +1562,11 @@ Processing Unit <PhotonCounter> :
 	Register(s) sync_counter_long_31 has(ve) been backward balanced into : sync_counter_long_31_BRB0 sync_counter_long_31_BRB2 sync_counter_long_31_BRB3 sync_counter_long_31_BRB4.
 	Register(s) sync_en_det has(ve) been backward balanced into : sync_en_det_BRB0 sync_en_det_BRB1 sync_en_det_BRB2.
 Unit <PhotonCounter> processed.
+Replicating register slow_pulsed_sig_3 to handle IOB=TRUE attribute
+Replicating register slow_pulsed_sig_2 to handle IOB=TRUE attribute
 Replicating register slow_pulsed_sig_1 to handle IOB=TRUE attribute
 Replicating register slow_pulsed_sig_0 to handle IOB=TRUE attribute
 
-FlipFlop sync2x_free has been replicated 2 time(s)
 
 Final Macro Processing ...
 
@@ -1177,8 +1588,8 @@ Unit <PhotonCounter> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 2097
- Flip-Flops                                            : 2097
+# Registers                                            : 2365
+ Flip-Flops                                            : 2365
 # Shift Registers                                      : 11
  2-bit shift register                                  : 11
 
@@ -1203,25 +1614,25 @@ Top Level Output File Name         : PhotonCounter.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 3999
+# BELS                             : 4793
 #      GND                         : 4
 #      INV                         : 40
 #      LUT1                        : 375
-#      LUT2                        : 642
+#      LUT2                        : 808
 #      LUT3                        : 373
-#      LUT4                        : 479
-#      LUT5                        : 91
-#      LUT6                        : 190
-#      MUXCY                       : 1020
+#      LUT4                        : 718
+#      LUT5                        : 105
+#      LUT6                        : 193
+#      MUXCY                       : 1264
 #      MUXF7                       : 2
 #      VCC                         : 4
-#      XORCY                       : 779
-# FlipFlops/Latches                : 2668
-#      FD                          : 469
-#      FDC                         : 48
+#      XORCY                       : 907
+# FlipFlops/Latches                : 3000
+#      FD                          : 481
+#      FDC                         : 96
 #      FDE                         : 288
 #      FDR                         : 533
-#      FDRE                        : 1299
+#      FDRE                        : 1571
 #      FDS                         : 2
 #      FDSE                        : 29
 # RAMS                             : 2
@@ -1231,11 +1642,11 @@ Primitive and Black Box Usage:
 #      SRLC16E                     : 11
 # Clock Buffers                    : 3
 #      BUFG                        : 3
-# IO Buffers                       : 45
+# IO Buffers                       : 49
 #      IBUF                        : 10
 #      IBUFG                       : 2
 #      IOBUF                       : 16
-#      OBUF                        : 17
+#      OBUF                        : 21
 # DCMs                             : 2
 #      DCM_SP                      : 2
 # Others                           : 16
@@ -1248,23 +1659,23 @@ Selected Device : 6slx16ftg256-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            2618  out of  18224    14%  
- Number of Slice LUTs:                 2202  out of   9112    24%  
-    Number used as Logic:              2190  out of   9112    24%  
+ Number of Slice Registers:            2948  out of  18224    16%  
+ Number of Slice LUTs:                 2624  out of   9112    28%  
+    Number used as Logic:              2612  out of   9112    28%  
     Number used as Memory:               12  out of   2176     0%  
        Number used as SRL:               12
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   3689
-   Number with an unused Flip Flop:    1071  out of   3689    29%  
-   Number with an unused LUT:          1487  out of   3689    40%  
-   Number of fully used LUT-FF pairs:  1131  out of   3689    30%  
-   Number of unique control sets:        87
+ Number of LUT Flip Flop pairs used:   4399
+   Number with an unused Flip Flop:    1451  out of   4399    32%  
+   Number with an unused LUT:          1775  out of   4399    40%  
+   Number of fully used LUT-FF pairs:  1173  out of   4399    26%  
+   Number of unique control sets:        93
 
 IO Utilization: 
- Number of IOs:                          45
- Number of bonded IOBs:                  45  out of    186    24%  
-    IOB Flip Flops/Latches:              50
+ Number of IOs:                          49
+ Number of bonded IOBs:                  49  out of    186    26%  
+    IOB Flip Flops/Latches:              52
 
 Specific Feature Utilization:
  Number of Block RAM/FIFO:                1  out of     32     3%  
@@ -1292,9 +1703,9 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk_in                             | DCM_SP:CLK0            | 1649  |
-clk_in                             | DCM_SP:CLK2X           | 593   |
-hi_in<0>                           | DCM_SP:CLK0            | 442   |
+clk_in                             | DCM_SP:CLK0            | 1953  |
+clk_in                             | DCM_SP:CLK2X           | 605   |
+hi_in<0>                           | DCM_SP:CLK0            | 458   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -1305,9 +1716,9 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 14.523ns (Maximum Frequency: 68.859MHz)
+   Minimum period: 15.147ns (Maximum Frequency: 66.022MHz)
    Minimum input arrival time before clock: 6.352ns
-   Maximum output required time after clock: 5.683ns
+   Maximum output required time after clock: 5.752ns
    Maximum combinational path delay: 1.328ns
 
 Timing Details:
@@ -1316,10 +1727,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_in'
-  Clock period: 14.523ns (frequency: 68.859MHz)
-  Total number of paths / destination ports: 103434 / 4607
+  Clock period: 15.147ns (frequency: 66.022MHz)
+  Total number of paths / destination ports: 105700 / 5163
 -------------------------------------------------------------------------
-Delay:               7.261ns (Levels of Logic = 24)
+Delay:               7.573ns (Levels of Logic = 20)
   Source:            sync_counter_long_31_BRB3 (FF)
   Destination:       sync_counter_long_1 (FF)
   Source Clock:      clk_in rising 2.0X
@@ -1329,42 +1740,38 @@ Delay:               7.261ns (Levels of Logic = 24)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              19   0.525   1.369  sync_counter_long_31_BRB3 (sync_counter_long_31_BRB3)
-     LUT5:I3->O           15   0.250   1.155  sync_counter_long_13_rstpot (sync_counter_long_13)
-     LUT1:I0->O            1   0.254   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<13>_rt (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<13>_rt)
-     MUXCY:S->O            1   0.215   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<13> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<13>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<14> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<14>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<15> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<15>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<16> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<16>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<17> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<17>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<18> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<18>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<19> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<19>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<20> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<20>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<21> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<21>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<22> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<22>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<23> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<23>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<24> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<24>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<25> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<25>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<26> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<26>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<27> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<27>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<28> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<28>)
-     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<29> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<29>)
-     MUXCY:CI->O           0   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<30> (Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_cy<30>)
-     XORCY:CI->O           2   0.206   1.002  Madd_sync_counter_long[31]_GND_1_o_add_83_OUT_xor<31> (sync_counter_long[31]_GND_1_o_add_83_OUT<31>)
-     LUT4:I0->O            0   0.254   0.000  Mcompar_slow_pulsePeriod_div[31]_sync_counter_long[31]_LessThan_83_o_lutdi15 (Mcompar_slow_pulsePeriod_div[31]_sync_counter_long[31]_LessThan_83_o_lutdi15)
-     MUXCY:DI->O          14   0.181   1.127  Mcompar_slow_pulsePeriod_div[31]_sync_counter_long[31]_LessThan_83_o_cy<15> (slow_pulsePeriod_div[31]_sync_counter_long[31]_LessThan_83_o)
+     FD:C->Q              23   0.525   1.586  sync_counter_long_31_BRB3 (sync_counter_long_31_BRB3)
+     LUT5:I2->O           23   0.235   1.358  sync_counter_long_17_rstpot (sync_counter_long_17)
+     LUT1:I0->O            1   0.254   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<17>_rt (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<17>_rt)
+     MUXCY:S->O            1   0.215   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<17> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<18> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<19> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<20> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<21> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<22> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<23> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<24> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<25> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<26> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<26>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<27> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<27>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<28> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<28>)
+     MUXCY:CI->O           1   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<29> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<29>)
+     MUXCY:CI->O           0   0.023   0.000  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<30> (Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_cy<30>)
+     XORCY:CI->O           2   0.206   1.002  Madd_sync_counter_long[31]_GND_1_o_add_89_OUT_xor<31> (sync_counter_long[31]_GND_1_o_add_89_OUT<31>)
+     LUT4:I0->O            0   0.254   0.000  Mcompar_slow_pulsePeriod_div[31]_sync_counter_long[31]_LessThan_89_o_lutdi15 (Mcompar_slow_pulsePeriod_div[31]_sync_counter_long[31]_LessThan_89_o_lutdi15)
+     MUXCY:DI->O          14   0.181   1.127  Mcompar_slow_pulsePeriod_div[31]_sync_counter_long[31]_LessThan_89_o_cy<15> (slow_pulsePeriod_div[31]_sync_counter_long[31]_LessThan_89_o)
      LUT5:I4->O            1   0.254   0.000  sync_counter_long_1_rstpot (sync_counter_long_1_rstpot)
      FD:D                      0.074          sync_counter_long_1
     ----------------------------------------
-    Total                      7.261ns (2.608ns logic, 4.653ns route)
-                                       (35.9% logic, 64.1% route)
+    Total                      7.573ns (2.500ns logic, 5.073ns route)
+                                       (33.0% logic, 67.0% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'hi_in<0>'
-  Clock period: 7.891ns (frequency: 126.727MHz)
-  Total number of paths / destination ports: 3700 / 889
+  Clock period: 7.918ns (frequency: 126.295MHz)
+  Total number of paths / destination ports: 3892 / 937
 -------------------------------------------------------------------------
-Delay:               7.891ns (Levels of Logic = 7)
+Delay:               7.918ns (Levels of Logic = 7)
   Source:            okHI/hicore/ti_addr_1 (FF)
   Destination:       pipeoutfifo2/BU2/U0/grf.rf/gl0.rd/rpntr/gc0.count_d1_8 (FF)
   Source Clock:      hi_in<0> rising
@@ -1374,7 +1781,7 @@ Delay:               7.891ns (Levels of Logic = 7)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             16   0.525   1.612  ti_addr_1 (ok1<17>)
+     FDE:C->Q             17   0.525   1.639  ti_addr_1 (ok1<17>)
      end scope: 'okHI/hicore:ok1<17>'
      begin scope: 'pipeOutaf:ok1<17>'
      LUT6:I1->O            1   0.254   1.137  ok2<16>81 (ok2<16>8)
@@ -1386,8 +1793,8 @@ Delay:               7.891ns (Levels of Logic = 7)
      LUT2:I0->O           18   0.250   1.234  U0/grf.rf/mem/gbm.tmp_ram_rd_en1 (U0/grf.rf/mem/gbm.tmp_ram_rd_en)
      FDE:CE                    0.302          U0/grf.rf/gl0.rd/rpntr/gc0.count_d1_8
     ----------------------------------------
-    Total                      7.891ns (1.839ns logic, 6.052ns route)
-                                       (23.3% logic, 76.7% route)
+    Total                      7.918ns (1.839ns logic, 6.079ns route)
+                                       (23.2% logic, 76.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'hi_in<0>'
@@ -1453,23 +1860,23 @@ Offset:              4.118ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_in'
-  Total number of paths / destination ports: 20 / 14
+  Total number of paths / destination ports: 26 / 18
 -------------------------------------------------------------------------
-Offset:              5.683ns (Levels of Logic = 2)
-  Source:            pmt_strecher_0 (FF)
-  Destination:       pmt_out (PAD)
-  Source Clock:      clk_in rising
+Offset:              5.752ns (Levels of Logic = 2)
+  Source:            sync_counter_long_7 (FF)
+  Destination:       led<7> (PAD)
+  Source Clock:      clk_in rising 2.0X
 
-  Data Path: pmt_strecher_0 to pmt_out
+  Data Path: sync_counter_long_7 to led<7>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDSE:C->Q             6   0.525   1.152  pmt_strecher_0 (pmt_strecher_0)
-     LUT4:I0->O            5   0.254   0.840  pmt_out11 (pmt_out_OBUF)
-     OBUF:I->O                 2.912          pmt_out_OBUF (pmt_out)
+     FD:C->Q              24   0.525   1.379  sync_counter_long_7 (sync_counter_long_7)
+     INV:I->O              1   0.255   0.681  led<7>1_INV_0 (led_7_OBUF)
+     OBUF:I->O                 2.912          led_7_OBUF (led<7>)
     ----------------------------------------
-    Total                      5.683ns (3.691ns logic, 1.992ns route)
-                                       (64.9% logic, 35.1% route)
+    Total                      5.752ns (3.692ns logic, 2.060ns route)
+                                       (64.2% logic, 35.8% route)
 
 =========================================================================
 Timing constraint: Default path analysis
@@ -1499,8 +1906,8 @@ Clock to Setup on destination clock clk_in
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk_in         |    7.261|         |         |         |
-hi_in<0>       |    3.415|         |         |         |
+clk_in         |    7.573|         |         |         |
+hi_in<0>       |    3.422|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock hi_in<0>
@@ -1509,20 +1916,20 @@ Clock to Setup on destination clock hi_in<0>
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 clk_in         |    1.280|         |         |         |
-hi_in<0>       |    7.891|         |         |         |
+hi_in<0>       |    7.918|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 25.00 secs
-Total CPU time to Xst completion: 24.98 secs
+Total REAL time to Xst completion: 30.00 secs
+Total CPU time to Xst completion: 30.63 secs
  
 --> 
 
-Total memory usage is 156372 kilobytes
+Total memory usage is 159512 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   72 (   0 filtered)
+Number of warnings :  138 (   0 filtered)
 Number of infos    :   19 (   0 filtered)
 

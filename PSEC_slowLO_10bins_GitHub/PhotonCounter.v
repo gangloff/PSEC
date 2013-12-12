@@ -19,9 +19,9 @@
 `define nbins 10 // number of time bins in the shift register
 `define binsize 16  // size of counters associated with each time bin (for signals slower than photon count rate)
 
-`define nchOut 2  // number of output channels associated with the fast pulse sequencer
+`define nchOut 4  // number of output channels associated with the fast pulse sequencer
 `define nchIn 2   // number of input channels associated with the fast pulse sequencer
-`define nchOutSlow 2  // number of output channels associated with the slow pulse sequencer
+`define nchOutSlow 4  // number of output channels associated with the slow pulse sequencer
 `define nchInSlow 2   // number of input channels associated with the slow pulse sequencer
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -126,7 +126,7 @@ assign reset_out = 1'b0;
 //  WireIn05 : 16 LSBits for above number
 //
 // Triggers and wires communicating with computer live
-wire [15:0] TrigIn40;
+wire [15:0] TrigIn40, TrigIn41;
 wire [15:0] WireIn00, WireIn01, WireIn02, WireIn03, WireIn04, WireIn05;
 // There are two output pipes feeding data to the computer for each of the 2 PMTs. These are wires necessary fop pipe signalling:
 wire [15:0] PipeData1;
@@ -217,6 +217,10 @@ always @(posedge clk) begin
 		  delay_div_out[0] <= 32'h0;
 		  pw_div_out[1] <= 32'h0;
 		  delay_div_out[1] <= 32'h0;
+		  pw_div_out[2] <= 32'h0;
+		  delay_div_out[2] <= 32'h0;
+		  pw_div_out[3] <= 32'h0;
+		  delay_div_out[3] <= 32'h0;
 		  pw_div_in[0] <= 32'h0;
 		  delay_div_in[0] <= 32'h0;
 		  pw_div_in[1] <= 32'h0;
@@ -226,6 +230,10 @@ always @(posedge clk) begin
 		  slow_delay_div_out[0] <= 32'h0;
 		  slow_pw_div_out[1] <= 32'h0;
 		  slow_delay_div_out[1] <= 32'h0;
+		  slow_pw_div_out[2] <= 32'h0;
+		  slow_delay_div_out[2] <= 32'h0;
+		  slow_pw_div_out[3] <= 32'h0;
+		  slow_delay_div_out[3] <= 32'h0;
 		  slow_pw_div_in[0] <= 32'h0;
 		  slow_delay_div_in[0] <= 32'h0;
 		  slow_pw_div_in[1] <= 32'h0;
@@ -233,6 +241,71 @@ always @(posedge clk) begin
 
    end
 	else begin
+		  // outputs:
+	     if (TrigIn41[0]) begin
+			  pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  pw_div_out[0] <= {WireIn03[15:0],WireIn02[15:0]};
+			  delay_div_out[0] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		  if (TrigIn41[1]) begin
+			  pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  pw_div_out[1] <= {WireIn03[15:0],WireIn02[15:0]};
+			  delay_div_out[1] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		  if (TrigIn41[2]) begin
+			  pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  pw_div_out[2] <= {WireIn03[15:0],WireIn02[15:0]};
+			  delay_div_out[2] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		  if (TrigIn41[3]) begin
+			  pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  pw_div_out[3] <= {WireIn03[15:0],WireIn02[15:0]};
+			  delay_div_out[3] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		//  inputs:	  
+		  if (TrigIn41[4]) begin
+			  pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  pw_div_in[0] <= {WireIn03[15:0],WireIn02[15:0]};
+			  delay_div_in[0] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		  if (TrigIn41[5]) begin
+			  pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  pw_div_in[1] <= {WireIn03[15:0],WireIn02[15:0]};
+			  delay_div_in[1] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		  // slow outputs:
+	     if (TrigIn41[6]) begin
+			  slow_pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  slow_pw_div_out[0] <= {WireIn03[15:0],WireIn02[15:0]};
+			  slow_delay_div_out[0] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		  if (TrigIn41[7]) begin
+			  slow_pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  slow_pw_div_out[1] <= {WireIn03[15:0],WireIn02[15:0]};
+			  slow_delay_div_out[1] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		  if (TrigIn41[8]) begin
+			  slow_pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  slow_pw_div_out[2] <= {WireIn03[15:0],WireIn02[15:0]};
+			  slow_delay_div_out[2] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		  if (TrigIn41[9]) begin
+			  slow_pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  slow_pw_div_out[3] <= {WireIn03[15:0],WireIn02[15:0]};
+			  slow_delay_div_out[3] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		//  slow inputs:	  
+		  if (TrigIn41[10]) begin
+			  slow_pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  slow_pw_div_in[0] <= {WireIn03[15:0],WireIn02[15:0]};
+			  slow_delay_div_in[0] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+		  if (TrigIn40[11]) begin
+			  slow_pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
+			  slow_pw_div_in[1] <= {WireIn03[15:0],WireIn02[15:0]};
+			  slow_delay_div_in[1] <= {WireIn05[15:0],WireIn04[15:0]};
+		     end
+	/*
 	   // outputs:
 	     if (TrigIn40[6]) begin
 			  pulsePeriod_div <= {WireIn01[15:0],WireIn00[15:0]};
@@ -277,6 +350,7 @@ always @(posedge clk) begin
 			  slow_pw_div_in[1] <= {WireIn03[15:0],WireIn02[15:0]};
 			  slow_delay_div_in[1] <= {WireIn05[15:0],WireIn04[15:0]};
 		     end
+			  */
    end
 end
 // (end commenting here for simulation of desing)
@@ -375,14 +449,16 @@ end
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 // slow input and output pulse signals:
 reg [`nchOutSlow-1:0] slow_pulsed_sig, slow_pulsed_sig_det;
-reg [`nchOutSlow-1:0] slow_read_pulse, slow_read_pulse_det;
+reg [`nchInSlow-1:0] slow_read_pulse, slow_read_pulse_det;
 
 reg [31:0] sync_counter_long;  // counter of sync cycles to keep track of slow sequence
 // variables for indicating the number of sync cycles until the end of the pulse:
-wire [31:0] slow_pulse_end_out[0:`nchInSlow-1];
+wire [31:0] slow_pulse_end_out[0:`nchOutSlow-1];
 wire [31:0] slow_pulse_end_in[0:`nchInSlow-1];
 assign slow_pulse_end_out[0] = slow_pw_div_out[0] + slow_delay_div_out[0];
 assign slow_pulse_end_out[1] = slow_pw_div_out[1] + slow_delay_div_out[1];
+assign slow_pulse_end_out[2] = slow_pw_div_out[2] + slow_delay_div_out[2];
+assign slow_pulse_end_out[3] = slow_pw_div_out[3] + slow_delay_div_out[3];
 assign slow_pulse_end_in[0] = slow_pw_div_in[0] + slow_delay_div_in[0];
 assign slow_pulse_end_in[1] = slow_pw_div_in[1] + slow_delay_div_in[1];
 
@@ -398,6 +474,12 @@ always @(posedge clk2x) begin
 	slow_pulsed_sig_det[1]  <= ( (sync_counter_long < slow_pulse_end_out[1]) & (sync_counter_long >= slow_delay_div_out[1]) );
 	slow_pulsed_sig[1] <= slow_pulsed_sig_det[1];
 	
+	slow_pulsed_sig_det[2]  <= ( (sync_counter_long < slow_pulse_end_out[2]) & (sync_counter_long >= slow_delay_div_out[2]) );
+	slow_pulsed_sig[2] <= slow_pulsed_sig_det[2];
+	
+	slow_pulsed_sig_det[3]  <= ( (sync_counter_long < slow_pulse_end_out[3]) & (sync_counter_long >= slow_delay_div_out[3]) );
+	slow_pulsed_sig[3] <= slow_pulsed_sig_det[3];
+	
 	slow_read_pulse_det[0]  <= ( (sync_counter_long < slow_pulse_end_in[0]) & (sync_counter_long >= slow_delay_div_in[0]) );
 	slow_read_pulse[0] <= slow_read_pulse_det[0];
 	
@@ -406,23 +488,27 @@ always @(posedge clk2x) begin
 	
 end
 
-// Assign pulse signals to outputs: 
+// Assign slow pulse signals to outputs: 
 assign slow_pulse_out[0] = slow_pulsed_sig[0];
 assign slow_pulse_out[1] = slow_pulsed_sig[1];
+assign slow_pulse_out[2] = slow_pulsed_sig[2];
+assign slow_pulse_out[3] = slow_pulsed_sig[3];
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////          FAST PULSE SEQUENCER:               ///////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 reg [`nchOut-1:0] pulsed_sig, pulsed_sig_det;
-reg [`nchOut-1:0] read_pulse, read_pulse_det;
+reg [`nchIn-1:0] read_pulse, read_pulse_det;
 
 reg [31:0] clk2x_periodCounter;   // counter of clk2x cycles to keep track of fast sequence
 // variables for indicating the number of sync2x cycles until the end of the pulse:
-wire [31:0] pulse_end_out[0:`nchIn-1];
+wire [31:0] pulse_end_out[0:`nchOut-1];
 wire [31:0] pulse_end_in[0:`nchIn-1];
 assign pulse_end_out[0] = pw_div_out[0] + delay_div_out[0];
 assign pulse_end_out[1] = pw_div_out[1] + delay_div_out[1];
+assign pulse_end_out[2] = pw_div_out[2] + delay_div_out[2];
+assign pulse_end_out[3] = pw_div_out[3] + delay_div_out[3];
 assign pulse_end_in[0] = pw_div_in[0] + delay_div_in[0];
 assign pulse_end_in[1] = pw_div_in[1] + delay_div_in[1];
 
@@ -438,15 +524,26 @@ always @(posedge clk2x) begin
 	
 	pulsed_sig_det[1]  <= ( (clk2x_periodCounter < pulse_end_out[1]) & (clk2x_periodCounter >= delay_div_out[1]) );
 	pulsed_sig[1] <= pulsed_sig_det[1];
+			
+	pulsed_sig_det[2]  <= ( (clk2x_periodCounter < pulse_end_out[2]) & (clk2x_periodCounter >= delay_div_out[2]) );
+	pulsed_sig[2] <= pulsed_sig_det[2];
+	
+	pulsed_sig_det[3]  <= ( (clk2x_periodCounter < pulse_end_out[3]) & (clk2x_periodCounter >= delay_div_out[3]) );
+	pulsed_sig[3] <= pulsed_sig_det[3];
 	
 	read_pulse_det[0]  <= ( (clk2x_periodCounter < pulse_end_in[0]) & (clk2x_periodCounter >= delay_div_in[0]) );
 	read_pulse[0] <= read_pulse_det[0];
 	
+	read_pulse_det[1]  <= ( (clk2x_periodCounter < pulse_end_in[1]) & (clk2x_periodCounter >= delay_div_in[1]) );
+	read_pulse[1] <= read_pulse_det[1];
+	
 end
 
-// Assign pulse signals to outputs:
+// Assign pulse signals to outputs (OR LOGIC: the output is high if the slow or the fast sequencer sets it high):
 assign pulse_out[0] = pulsed_sig[0] | slow_pulsed_sig[0];
 assign pulse_out[1] = pulsed_sig[1] | slow_pulsed_sig[1];
+assign pulse_out[2] = pulsed_sig[2] | slow_pulsed_sig[2];
+assign pulse_out[3] = pulsed_sig[3] | slow_pulsed_sig[3];
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////   DETECT PMT PULSES         /////////////////////////////////////////////////
@@ -456,7 +553,7 @@ reg pmt1, pmt_det1, pmt_free1;
 reg [3:0] pmt_buf2;
 reg pmt2, pmt_det2, pmt_free2;
 
-// Photons will only be detected if phcountbool is high
+// Photons will only be detected if phcountbool is high (AND LOGIC: both slow and fast sequencer must enable photon counting)
 assign phcountbool = read_pulse[0] & slow_read_pulse[0];
 
 // Buffer PMT pulses for edge detection:
@@ -635,6 +732,7 @@ okPipeOut pipeOutaf (.ok1(ok1), .ok2(ok2x[1*17 +: 17]), .ep_addr(8'haf),
                     .ep_datain(_pipedata2), .ep_read(_piperead2));							
 
 okTriggerIn ep40 (.ok1(ok1), .ep_addr(8'h40), .ep_clk(clk), .ep_trigger(TrigIn40));
+okTriggerIn ep41 (.ok1(ok1), .ep_addr(8'h41), .ep_clk(clk), .ep_trigger(TrigIn41));
 okWireIn ep00 (.ok1(ok1), .ep_addr(8'h00), .ep_dataout(WireIn00));
 okWireIn ep01 (.ok1(ok1), .ep_addr(8'h01), .ep_dataout(WireIn01));
 okWireIn ep02 (.ok1(ok1), .ep_addr(8'h02), .ep_dataout(WireIn02));

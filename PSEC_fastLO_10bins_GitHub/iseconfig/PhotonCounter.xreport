@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-10-21T11:47:23</DateModified>
+  <DateModified>2013-12-11T15:46:47</DateModified>
   <ModuleName>PhotonCounter</ModuleName>
   <SummaryTimeStamp>2013-10-16T16:54:55</SummaryTimeStamp>
-  <SavedFilePath>F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC_working/PSEC_fastLO_10bins/iseconfig/PhotonCounter.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC_working/PSEC_fastLO_10bins\</ImplementationReportsDirectory>
+  <SavedFilePath>F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC/PSEC_fastLO_10bins_GitHub/iseconfig/PhotonCounter.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>F:/VIs/PULSE_SEQUENCER_AND_CORRELATOR/PSEC/PSEC_fastLO_10bins_GitHub\</ImplementationReportsDirectory>
   <DateInitialized>2013-10-16T17:22:47</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
